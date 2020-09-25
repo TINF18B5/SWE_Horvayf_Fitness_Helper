@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">FitnessHelper</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="add_entry">Eintrag anlegen</string>
+    <string name="delete_entry">Eintrag löschen</string>
+    <string-array name="genders">
+        <item>Geschlecht auswählen</item>
+        <item>Männlich</item>
+        <item>Weiblich</item>
+    </string-array>
+</resources>

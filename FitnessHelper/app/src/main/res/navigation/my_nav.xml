@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/my_nav"
+    app:startDestination="@id/calendarFragment">
+    <fragment
+        android:id="@+id/calendarFragment"
+        android:name="com.example.fitnesshelper.fragments.CalendarFragment"
+        android:label="Calendar"
+        tools:layout="@layout/fragment_calendar" />
+    <fragment
+        android:id="@+id/planFragment"
+        android:name="com.example.fitnesshelper.fragments.PlanFragment"
+        android:label="Fitness plans"
+        tools:layout="@layout/fragment_plan" />
+    <fragment
+        android:id="@+id/userFragment"
+        android:name="com.example.fitnesshelper.fragments.UserFragment"
+        android:label="User"
+        tools:layout="@layout/fragment_user" />
+    <fragment
+        android:id="@+id/musclePlanFragment"
+        android:name="com.example.fitnesshelper.fragments.MusclePlanFragment"
+        android:label="fragment_muscle_plan"
+        tools:layout="@layout/fragment_muscle_plan" />
+    <fragment
+        android:id="@+id/cardioPlanFragment"
+        android:name="com.example.fitnesshelper.fragments.CardioPlanFragment"
+        android:label="fragment_cardio_plan"
+        tools:layout="@layout/fragment_cardio_plan" />
+    <fragment
+        android:id="@+id/trainingPlanFragment"
+        android:name="com.example.fitnesshelper.fragments.TrainingPlanFragment"
+        android:label="fragment_training_plan"
+        tools:layout="@layout/fragment_training_plan" />
+    <fragment
+        android:id="@+id/exerciseFragment"
+        android:name="com.example.fitnesshelper.fragments.ExerciseFragment"
+        android:label="fragment_exercise"
+        tools:layout="@layout/fragment_exercise" />
+</navigation>
